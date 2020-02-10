@@ -5,10 +5,13 @@ sp:
 spring:
   application:
     name: user-service
+  cloud:
+    config:
+      override-none: true
     
 server:
   port: 8101
-
+  
 eureka:
   client:
     service-url:
