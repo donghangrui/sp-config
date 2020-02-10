@@ -1,9 +1,12 @@
+
 spring:
   application:
     name: item-service
+    
   cloud:
     config:
       overide-none: true
+      
   rabbitmq:
     host: 192.168.1.111
     port: 5672
@@ -11,7 +14,7 @@ spring:
     password: admin
     
 server:
-  port: 8001
+  port: 8801
 
 eureka:
   client:
