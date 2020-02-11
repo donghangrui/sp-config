@@ -7,10 +7,10 @@ spring:
     config:
       overide-none: true
     inetutils:
-        ignored-interfaces: # 忽略的网卡
-          - VM.*
-        preferred-networks: # 要是用的网卡的网段
-          - 192.168.1
+      ignored-interfaces: # 忽略的网卡
+        - VM.*
+      preferred-networks: # 要是用的网卡的网段
+        - 192.168.1
       
   rabbitmq:
     host: 192.168.1.111
